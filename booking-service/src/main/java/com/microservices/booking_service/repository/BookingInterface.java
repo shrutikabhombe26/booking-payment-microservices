@@ -1,0 +1,10 @@
+package com.microservices.booking_service.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.microservices.booking_service.entity.Booking;
+
+public interface BookingInterface extends JpaRepository<Booking, Long> {
+
+}
+
